@@ -29,11 +29,15 @@
   scroll-behavior: smooth;
 }
 
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
 body {
   background-color: var(--bg-primary);
   color: var(--text-main);
   font-family: var(--font-family);
-  overflow-x: hidden;
   position: relative;
   line-height: 1.6;
 }
